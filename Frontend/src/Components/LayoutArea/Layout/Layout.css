@@ -1,0 +1,31 @@
+.Layout {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 7.3% 83.7%;
+}
+
+header {
+    background: linear-gradient(180deg, rgb(20, 1, 1), black);
+    grid-column: 1 / span 6;
+    grid-row: 1;
+    z-index: 999;
+}
+
+
+main {
+    width: 100%;
+    grid-column: 1 /span 6;
+    grid-row: 2;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    direction: ltr;
+    background-color: rgb(241, 238, 233);
+}
+
+footer {
+    grid-column: 1 / span 6;
+    grid-row: 3;
+}

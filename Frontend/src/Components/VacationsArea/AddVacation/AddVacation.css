@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+
+.AddVacationWrapper {
+    height: 100%;
+}
+
+.AddVacation {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.AddVacationWrapper>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.formWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.AddVacation>div>form {
+    font-family: "Montserrat";
+    padding: 20px;
+    margin-top: 15px;
+    height: 100%;
+    justify-content: space-between;
+    outline: none;
+    background-color: #ecf1f3;
+    opacity: 0.9;
+    box-shadow: 0 0 12px 16px #ecf1f3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.AddVacation>div>form>input {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+}
+
+.AddVacation>div>form>button {
+    width: 100%;
+    color: white;
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+}
+
+.AddVacation>div>form>button:hover {
+    background: rgb(4, 93, 236);
+    border: none;
+}
+
+.spinner-border {
+    width: 1rem;
+    height: 1rem;
+    font-size: 10px;
+}
+/* 
+input[type=file]::file-selector-button {
+    border-radius: 5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+
+}
+
+input[type=file] {
+
+    border-radius: 2px;
+    background-color: rgb(185, 185, 185);
+    color: black;
+    font-weight: 700;
+
+} */
+
+div.AddVacation>div>form>.ErrorMessage {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+
+@media screen and (max-width:768px) {
+    .AddVacation>div>form {
+        width: 80%;
+    }
+
+    .AddVacation {
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-height:510px) {
+    .AddVacationWrapper>h2 {
+        margin-top: 20px;
+    }
+}

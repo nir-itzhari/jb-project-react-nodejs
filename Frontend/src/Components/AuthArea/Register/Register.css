@@ -1,0 +1,62 @@
+.Register {
+    height: 100%;
+    display: flex;
+    border-style: none;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.RegisterWrapper>img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Register>form {
+    padding: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.password {
+    position: relative;
+}
+
+.Register>.button {
+
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.Register input {
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.Register>form>.ErrorMessage {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+
+}
+
+
+.RegisterWrapper {
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .Register>h2 {
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,23 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin: 0;
+}
+
+.navbar {
+    z-index: 99;
+}
+
+@media only screen and (min-width: 1000px) {
+    .navAuthMenu {
+        position: absolute;
+        right: 0;
+        width: 500px;
+    }
+
+}

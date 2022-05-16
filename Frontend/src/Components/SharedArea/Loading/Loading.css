@@ -1,0 +1,14 @@
+.Loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Loading > img {
+    width: 200px;
+    height: 200px;
+    opacity: 0.8;
+    background-color: #000000ad;
+    box-shadow: 0 0 0 1000px #000000ad; 
+}
